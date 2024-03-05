@@ -1,5 +1,5 @@
 ## Home
-Guten Tag und herzlich Willkommen. A record of my journey to an unknown future.
+Guten Tag und herzlich willkommen. A record of my journey to an unknown future.
 
 <img src="images/Photo_Amsterdam" alt="My picture" width="400"/>
 
