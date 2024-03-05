@@ -1,7 +1,8 @@
+## Mandelbrot
 Guten Tag und herzlich Willkommen. A record of my journey to an unknown future.
 
-![Image of fast.ai logo](images/logo.png)
+<img src="images/Photo_Amsterdam" alt="My picture" width="400"/>
 
-## This is a title
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+
+To [my university page](https://www.uni-muenster.de/AMM/show_perspage.shtml?id=1608).
