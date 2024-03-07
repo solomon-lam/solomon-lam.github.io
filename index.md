@@ -1,3 +1,6 @@
+---
+title: Home
+---
 ## Herzlich willkommen in meinem Blog
 I am working on a stochastic particle system known as exchange-driven growth model as part of my PhD study.
 
