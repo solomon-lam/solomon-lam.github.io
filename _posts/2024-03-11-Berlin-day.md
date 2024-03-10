@@ -1,5 +1,7 @@
 ---
 layout: post
-categories: Berlin
+categories: berlin
 ---
 ## Day 1
+
+Try
