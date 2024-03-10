@@ -1,3 +1,7 @@
+---
+layout: post
+categories: fastai
+---
 
 ## Data cleaning
 
