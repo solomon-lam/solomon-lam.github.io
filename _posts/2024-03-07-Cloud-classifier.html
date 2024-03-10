@@ -1,6 +1,7 @@
 ---
 title: Cloud classifier
-layout: page
+layout: post
+categories: fastai
 ---
 
 I am trying out to deploy the binary cloud classifier on a webpage. Essentially, I fine-tuned an image classifier called resnet18 using the fastai module based on pytorch. Fine-tuning just means the last layer of the convolutional neutral network is replaced by a few layers with random parameters and train the model for a few epcohs again. It took less than 1 minute on the online machine learning platform Kaggle. I input some images from the internet about two types of clouds stratocumulus and cumulonimbus into the modelling for training. Then I saved the fine-tuned model and use Gradio python module to convert the model into a simple API. The platform Huggingspace was used to host the model online. It is amazing that everything I mentioned and together with this blog are free of charge! The result is below. It is not perfect because I did not do much data cleaning. I hope I can improve the performance with the 9-clouds-type classifier later.
