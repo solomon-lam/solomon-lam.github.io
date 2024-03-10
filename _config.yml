@@ -20,8 +20,6 @@ use_math: true
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
 
-# categories setting
-permalink: /:categories/:title/
 
 
 # Everything below here can be ignored, unless you want to change the theme entirely
