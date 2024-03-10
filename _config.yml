@@ -22,7 +22,8 @@ google_analytics:
 
 # Collection setting
 collections:
-topics:
+  topics:
+    output: true
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
