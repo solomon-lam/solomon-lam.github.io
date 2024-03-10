@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Personal
+categories: fastai
 ---
 # First post
 
