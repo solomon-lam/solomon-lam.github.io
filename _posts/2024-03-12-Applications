@@ -1,0 +1,6 @@
+Today one interesting talk (Sparse Approximation of Multi-marginal Quantum Optimal Transport Problems with Moment Constraints: Application to Quantum Chemistry) is about application of optimal transport in understanding the quantum many body Schrodinger problem. By reducing the variational problem into a optimal transport problem. Many notions from quantum many body particles appear e.g. Born-Oppenheimer approximation, density functional theory, Hohenberg-Kohn functional, Lieb functional.... But I was lost once the speaker map the problems into the classical optimal transport and quantum optimal transport settings.
+
+
+The talk of Mark Petletier "Singular-limit Analysis of Training with Noise Injection" adds randomness into the gradient flow problem. It was called noisy gradient decent. By adding randomness, the gradient flow moves along the zero sets of the functional instead of standing still at the first hit point of the zero set.
+
+There are applications in so-called Bernoulli dropout, Gaussian dropout. But I could not find the relevant paper on arXiv. 
