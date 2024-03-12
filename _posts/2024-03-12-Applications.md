@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Berlin 2: Applications of optimal transport in quantum many-particle system
 categories: OT@Berlin
 ---
 
+## Optimal transport in quantum many-particle system
 Today one interesting talk (Sparse Approximation of Multi-marginal Quantum Optimal Transport Problems with Moment Constraints: Application to Quantum Chemistry) by Virginie Ehrlacher is about application of optimal transport in understanding the quantum many body Schrodinger problem. By reducing the variational problem into a optimal transport problem. Many notions from quantum many body particles appear e.g. Born-Oppenheimer approximation, density functional theory, Hohenberg-Kohn functional, Lieb functional.... But I was lost once the speaker map the problems into the classical optimal transport and quantum optimal transport settings.
 
 
