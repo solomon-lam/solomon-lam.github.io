@@ -8,4 +8,4 @@ Today one interesting talk (Sparse Approximation of Multi-marginal Quantum Optim
 
 The talk of Mark Petletier "Singular-limit Analysis of Training with Noise Injection" adds randomness into the gradient flow problem to understand stochastic gradient descent. The question to answer is find parameters $w$ so that given model function $f(x_i,w)$ approximate the ground truth $g(x_i)$ well, the parameters $w$ determined by finite observations in an optimisation problem gives a good approximation for all observation in the domain. It was called noisy gradient decent. By adding randomness, the gradient flow moves along the zero sets of the functional instead of standing still at the first hit point of the zero set.
 
-There are applications in so-called Bernoulli dropout, Gaussian dropout in machine learning and possibly in adversarial training as raised during quesitons. But I could not find the relevant paper on arXiv. 
+There are applications in so-called Mini-batch noise, Label noise, Bernoulli dropout, Gaussian dropout in machine learning and possibly in adversarial training as raised during quesitons. But I could not find the relevant paper on arXiv. 
