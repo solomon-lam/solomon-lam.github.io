@@ -42,7 +42,7 @@ Lyapunov method: calculate second derivative of KL divergence, entropy dissipati
 
 Reference: [Entropy dissipation via Information Gamma calculus: Non-reversible stochastic differential equations](https://arxiv.org/abs/2011.08058)
 
-Lafferty 1988: [The density manifold and configuration space quantization](https://www.ams.org/journals/tran/1988-305-02/S0002-9947-1988-0924776-9/home.html)
+Earlier idea for the second derivative of Fisher information Lafferty 1988: [The density manifold and configuration space quantization](https://www.jstor.org/stable/2000885)
 
 Mi Jung Park:Privacy-preserving Data Generation in the Era of Foundation Models: Generative Transfer Learning with Differential Privacy
 
