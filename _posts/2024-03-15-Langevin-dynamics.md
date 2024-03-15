@@ -30,3 +30,25 @@ Assuming $log$-Sobolev inequality, he can show convergence of the approximation 
 
 
 Reference: [Convergence of mean-field Langevin dynamics: Time and space discretization, stochastic gradient, and variance reduction](https://arxiv.org/abs/2306.07221)
+
+
+
+Wuchen Li: Information Gamma Calculus: Convexity Analysis for Stochastic Differential Equations
+Problem: Sample target measure $\pi(x) = \frac{1}{Z} e^{-V(x)}$ given $V: \Omega \to \mathbb{R}$. But $V$ is only partially known.
+$\dotX(t)=b(X_t)+\sqrt{2}a(X_t) B_t$ assume invariant measure $\pi$ exists. 
+Question: convergence to invariant measure.
+
+Lypunavo method: calculate second derivative of KL divergence, entropy dissipation analysis for non-gradient and degenerate stochastic dynamics system.
+
+Lafferty 1988
+
+Mi Jung Park:Privacy-preserving Data Generation in the Era of Foundation Models: Generative Transfer Learning with Differential Privacy
+
+
+Synthetic data is vulnerable to linkage attacks which connects to a original datapoint. 
+Differential privacy: learn as much as possible about a group while learning as little as possible about individuals.
+Fine tuning models using DP method to avoid model remembering data. e.g. Type in a name recover the origin portrait of a woman.
+Method: Kernel mean embedding
+Application: (Latent) Diffusion model, attention modules, Image generation: 
+Future: Tabular data
+Connection between robustness and DP?
