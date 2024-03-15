@@ -38,9 +38,10 @@ Problem: Sample target measure $\pi(x) = \frac{1}{Z} e^{-V(x)}$ given $V: \Omega
 $\dot X(t)=b(X_t)+\sqrt{2}a(X_t) B_t$ assume invariant measure $\pi$ exists. 
 Question: convergence to invariant measure.
 
-Lypunavo method: calculate second derivative of KL divergence, entropy dissipation analysis for non-gradient and degenerate stochastic dynamics system.
+Lyapunov method: calculate second derivative of KL divergence, entropy dissipation analysis for non-gradient and degenerate stochastic dynamics system.
 
-Reference: Entropy dissipation via Information Gamma calculus: Non-reversible stochastic differential equations
+Reference: [Entropy dissipation via Information Gamma calculus: Non-reversible stochastic differential equations](https://arxiv.org/abs/2011.08058)
+
 Lafferty 1988
 
 Mi Jung Park:Privacy-preserving Data Generation in the Era of Foundation Models: Generative Transfer Learning with Differential Privacy
