@@ -26,6 +26,12 @@ The infimum over all $\delta$-sparese sets $\{t_i\}$, ie. $\min_{1\le i \le v} (
 # Skorohod toplogy finite time
 Class of strictly increasing, continuous mappings from $[0,1]$ onto itself: $\Lambda$. In particular, $\lambda(0)=0, \lambda(1)=1$.
 Metric on $D$, $$d(x,y)= \inf_{\lambda \in \Lambda} \{ \|\lambda -I \|_{\infty[0,1]} \vee \| x - y\lambda\|_{\infty [0,1]} \}$$
+* Convergence in Skorohod topology iff $\lim_n x_n(\lambda_n t)= x(t)$ uniformly in $t$ and $\lim_n \lambda_n t =t$ uniformly in $t$.
+* Uniform convergence implies Skorohod convergence
+* Skorohod convergence implies $x_n(t) \to x(t)$ for all $t$ continuity point of $x$.
+*  If $x$ is continuous on $[0,1]$, then Skorohod convergence implies uniform convergence.
+*  However, $D$ is not complete under $d$. It is under
+  $d^{\circ}(x,y)=\inf_{\lambda\in\Lambda}\{\|\lambda\|^{\circ}_{\infty} \vee \| x- y\lambda\|_{\infty} \}$
 
 # Skorohod topology $[0,\infty)$ 
 Definition
