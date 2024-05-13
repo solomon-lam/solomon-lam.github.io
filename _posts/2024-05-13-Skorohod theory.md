@@ -7,7 +7,9 @@ categories: Stochastics
 
 # Skorohod space on $[0,1]$
 * cadlag functions $x: [0,1] \to \mathbb{R}$
-* Define $T\subset [0,1]$, $w_x(T): = \sup_{s,t \in T} |x(s)-x(t)|$
+* Define
+$T\subset [0,1]$,
+$w_x(T): = \sup_{s,t \in T} |x(s)-x(t)|$
 * Modulus of continuity $w_x(\delta)= \sup_{0\le t \le t 1-\delta}w_x([t,t+\delta])$
 
 # Properities of cadlag functions
