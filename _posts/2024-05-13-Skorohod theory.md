@@ -7,7 +7,7 @@ categories: Stochastics
 
 # Skorohod space on $[0,1]$
 * cadlag functions $x: [0,1] \to \mathbb{R}$
-* $T\subset [0,1]$, $w_x(T): = \sup_{s,t \in T}|x(s)-x(t)|$
+* Define $T\subset [0,1]$, $w_x(T): = \sup_{s,t \in T} |x(s)-x(t)|$
 * Modulus of continuity $w_x(\delta)= \sup_{0\le t \le t 1-\delta}w_x([t,t+\delta])$
 
 # Properities of cadlag functions
@@ -22,6 +22,8 @@ The infimum over all $\delta$-sparese sets $\{t_i\}$, ie. $\min_{1\le i \le v} (
 
 
 # Skorohod toplogy finite time
+Class of strictly increasing, continuous mappings from $[0,1]$ onto itself: $\Lambda$. In particular, $\lambda(0)=0, \lambda(1)=1$.
+Metric on $D$, $$d(x,y)= \inf_{\lambda \in \Lambda} \{ \|\lambda -I \|_{\infty[0,1]} \vee \| x - y\lambda\|_{\infty [0,1]} \}$$
 
 # Skorohod topology $[0,\infty)$ 
 Definition
