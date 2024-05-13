@@ -33,7 +33,9 @@ Metric on $D$, $$d(x,y)= \inf_{\lambda \in \Lambda} \{ \|\lambda -I \|_{\infty[0
 *  However, $D$ is not complete under $d$. It is under
   $$d^{\circ}(x,y)=\inf_{\lambda\in\Lambda} \{ \| \lambda {\|^{\circ}}_{\infty} \vee \| x- y\lambda\|_{\infty} \}$$,
 $$\|\lambda\|^{\circ}=\sup_{s<t}|\log \frac{\lambda t-\lambda s}{t-s} |$$
-
+* $D$ is separable and complete.
+* Compactness: Theorem 12.3 analogue of Arzela-Asocli theorem, Theorem 12.4 (Billingsley)
+* 
 # Skorohod topology $[0,\infty)$ 
 Definition
 Properties
