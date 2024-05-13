@@ -31,8 +31,8 @@ Metric on $D$, $$d(x,y)= \inf_{\lambda \in \Lambda} \{ \|\lambda -I \|_{\infty[0
 * Skorohod convergence implies $x_n(t) \to x(t)$ for all $t$ continuity point of $x$.
 *  If $x$ is continuous on $[0,1]$, then Skorohod convergence implies uniform convergence.
 *  However, $D$ is not complete under $d$. It is under
-  $`d^{\circ}(x,y)=\inf_{\lambda\in\Lambda}\{\|\lambda\|^{\circ}_{\infty} \vee \| x- y\lambda\|_{\infty} \}`$,
-$`\|\lambda\|^{\circ}=\sup_{s<t}|\log \frac{\lambda t-\lambda s}{t-s}|`$
+  $$d^{\circ}(x,y)=\inf_{\lambda\in\Lambda} \{ \| \lambda {\|^{\circ}}_{\infty} \vee \| x- y\lambda\|_{\infty} \}$$,
+$$\|\lambda\|^{\circ}=\sup_{s<t}|\log \frac{\lambda t-\lambda s}{t-s} |$$
 
 # Skorohod topology $[0,\infty)$ 
 Definition
