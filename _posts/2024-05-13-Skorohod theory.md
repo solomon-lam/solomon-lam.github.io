@@ -58,8 +58,24 @@ Convergence in $d_\infty^{\circ}(x_n,x) \to 0$ in $D_{\infty}$ iff there exists 
 $\sup_{t<\infty}|\lambda_n t -t| \to 0$ and for each $m$ 
 $\sup_{t\le m}|x_n(\lambda_n t)- x(t)|\to 0$.
 
-Properties
-Compactness
+and iff for each continuity point $t$ of $x$, $d_t^{\circ}(x_n,x)\to 0$.
+
+Define $\phi_m x$ as $x^m$ restricted to $[0,m]$. $D_{\infty}$ is separable and complete. $D_{\infty}$ isometric to the product metric on $D_1 \times D_2 \times ...$ 
+
+## Compactness
+relative compact in $D_{\infty}$ iff $\phi_m A$ is relatively compact in $D_m$ for each $m$.
+
+$w'_m(x,\delta)=\inf \max_{1\le i\le v} w(x, [t_{i-1},t_i))$, where infimum extends over all decompositions $[t_{i-1},t_i)$, $1\le i \le v$ of $[0,m)$, such that it is $\delta$-sparse for $1\le i < v$.
+
+Relatively compactness iff  for every $m$, $\sup_{x \in A}\| x \|_m < \infty$ and 
+$\lim_{\delta \to 0} \sup_{x \in A} w^{'}_m(x, \delta)=0$.
+
+This translate to the relevant tightness condition for measures on $D_\infty$.
+$\lim_{a \infty}\limsup_n P[|X^n|_m \ge a]=0$
+and for each $\epsilon, \eta,m$, there exists a $\delta_0$ and $n_0$ such that if $\delta<\delta_0$, $n\ge n_0$, and $\tau$ a discrete $X^n$ stopping time with $\tau\le m$, then $$P[|X^n_{\tau+\delta} - X^n_\tau| \ge \epsilon |]\le \eta$$
+
+$P[|X^n_{\tau +\delta} - X^n_{\tau}| \ge \epsilon] \le \eta$
+
 Finite dimensional sets
 Weak convergence
 Tightness criterion
