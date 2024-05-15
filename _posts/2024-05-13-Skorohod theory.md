@@ -55,8 +55,8 @@ $$g_m(t)=\begin{cases} 1 \quad &\text{if } t\le m-1,\\
 For $x\in D_\infty$, $x^m\in D_\infty$, $x^m(t)=g_m(t)x(t), t\ge 0.$
 $$d^{\circ}_\infty(x,y)= \sum_{m=1}^{\infty} 2^{-m} (1 \wedge d_m^{\circ}(x^m, y^m))$$
 Convergence in $d_\infty^{\circ}(x_n,x) \to 0$ in $D_{\infty}$ iff there exists $\lambda_n \in \Gamma_\infty$,
-$\sup_{t<\infty}|\lambda_n t -t| \to 0$ and for each $m$ 
-$\sup_{t\le m}|x_n(\lambda_n t)- x(t)|\to 0$.
+$$\sup_{t<\infty}|\lambda_n t -t| \to 0$$ and for each $m$ 
+$$\sup_{t\le m}|x_n(\lambda_n t)- x(t)|\to 0$$.
 
 and iff for each continuity point $t$ of $x$, $d_t^{\circ}(x_n,x)\to 0$.
 
@@ -73,9 +73,9 @@ such that it is $\delta$-sparse for
 $1\le i < v$.
 
 Relatively compactness iff  for every $m$, 
-$\sup_{x \in A} \| x \|_{m} < \infty$ 
+$$\sup_{x \in A} \| x \|_{m} < \infty$$ 
 and 
-$\lim_{\delta \to 0} \sup_{x \in A} w^{'}_m (x, \delta) = 0$.
+$$\lim_{\delta \to 0} \sup_{x \in A} w^{1}_m (x, \delta) = 0$$.
 
 This translate to the relevant tightness condition for measures on $D_\infty$.
 $\lim_{a \infty}\limsup_n P[|X^n|_m \ge a]=0$
