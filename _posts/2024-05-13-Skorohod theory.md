@@ -65,7 +65,7 @@ Define $\phi_m x$ as $x^m$ restricted to $[0,m]$. $D_{\infty}$ is separable and 
 ## Compactness
 relative compact in $D_{\infty}$ iff $\phi_m A$ is relatively compact in $D_m$ for each $m$.
 
-$w'_m(x,\delta)=\inf \max_{1\le i\le v} w(x, [t_{i-1},t_i))$, where infimum extends over all decompositions $[t_{i-1},t_i)$, $1\le i \le v$ of $[0,m)$, such that it is $\delta$-sparse for $1\le i < v$.
+$w^{'}_{m}(x,\delta)=\inf \max_{1\le i\le v} w(x, [t_{i-1},t_i))$, where infimum extends over all decompositions $[t_{i-1},t_i)$, $1\le i \le v$ of $[0,m)$, such that it is $\delta$-sparse for $1\le i < v$.
 
 Relatively compactness iff  for every $m$, $\sup_{x \in A}\| x \|_m < \infty$ and 
 $\lim_{\delta \to 0} \sup_{x \in A} w^{'}_m(x, \delta)=0$.
