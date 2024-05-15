@@ -51,7 +51,7 @@ $d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]
 Define 
 $$g_m(t)=\begin{cases} 1 \quad &\text{if } t\le m-1,\\
                         m-t \quad &\text{if } m-1\le t \le m,\\
-                        0 \quad &\text{if } t \ge m.$$
+                        0 \quad &\text{if } t \ge m.\end{cases}$$
 For $x\in D_\infty$, $x^m\in D_\infty$, $x^m(t)=g_m(t)x(t), t\ge 0.$
 $$d^{\circ}_\infty(x,y)= \sum_{m=1}^{\infty} 2^{-m} (1 \wedge d_m^{\circ}(x^m, y^m))
 Convergence in $d_\infty^{\circ}(x_n,x) \to 0$ in $D_{\infty}$ iff there exists $\lambda_n \in \Gamma_\infty$,
