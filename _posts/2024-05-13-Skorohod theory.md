@@ -34,8 +34,14 @@ Metric on $D$, $$d(x,y)= \inf_{\lambda \in \Lambda} \{ \|\lambda -I \|_{\infty[0
   $$d^{\circ}(x,y)=\inf_{\lambda\in\Lambda} \{ \| \lambda {\|^{\circ}}_{\infty} \vee \| x- y\lambda\|_{\infty} \}$$,
 $$\|\lambda\|^{\circ}=\sup_{s<t}|\log \frac{\lambda t-\lambda s}{t-s} |$$
 * $D$ is separable and complete.
-* Compactness: Theorem 12.3 analogue of Arzela-Asocli theorem, Theorem 12.4 (Billingsley)
-* 
+* Compactness: Theorem 12.3 analogue of Arzela-Asocli theorem, Theorem 12.4 via
+  $${w}^{''}_x(\delta)=\sup_{t_1 \le t \le t_2, t_2 -t_1 \le \delta} \{|x(t)-x(t_1)| \wedge |x(t_2)-x(t)|\}$$
+  (Billingsley) 
+* Finite dimensional sets
+
+# Weak convergence and tightness in $`D`$
+Compare with the continuous function version Theorem 7.3 via Arzeal-Ascoli.
+
 # Skorohod topology $[0,\infty)$ 
 Definition
 Properties
