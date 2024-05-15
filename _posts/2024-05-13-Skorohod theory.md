@@ -39,11 +39,25 @@ $$\|\lambda\|^{\circ}=\sup_{s<t}|\log \frac{\lambda t-\lambda s}{t-s} |$$
   (Billingsley) 
 * Finite dimensional sets
 
-# Weak convergence and tightness in $`D`$
+# Weak convergence and tightness in $D$
 Compare with the continuous function version Theorem 7.3 via Arzeal-Ascoli.
 
+
 # Skorohod topology $[0,\infty)$ 
-Definition
+$D[0,\infty)$ cadlag functions on $[0,\infty)$. 
+Introduce $D_t$ cadlag functions on $[0,t]$, 
+$d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]$.
+
+Define 
+$$g_m(t)=\begin{cases} 1 \quad &\text{if } t\le m-1,\\
+                        m-t \quad &\text{if } m-1\le t \le m,\\
+                        0 \quad &\text{if } t \ge m.$$
+For $x\in D_\infty$, $x^m\in D_\infty$, $x^m(t)=g_m(t)x(t), t\ge 0.$
+$$d^{\circ}_\infty(x,y)= \sum_{m=1}^{\infty} 2^{-m} (1 \wedge d_m^{\circ}(x^m, y^m))
+Convergence in $d_\infty^{\circ}(x_n,x) \to 0$ in $D_{\infty}$ iff there exists $\lambda_n \in \Gamma_\infty$,
+$\sup_{t<\infty}|\lambda_n t -t| \to 0$ and for each $m$ 
+$\sup_{t\le m}|x_n(\lambda_n t)- x(t)|\to 0$.
+
 Properties
 Compactness
 Finite dimensional sets
