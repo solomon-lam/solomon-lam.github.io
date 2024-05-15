@@ -72,7 +72,9 @@ of $[0,m)$,
 such that it is $\delta$-sparse for 
 $1\le i < v$.
 
-Relatively compactness iff  for every $m$, $\sup_{x \in A} \| x \|_{m} < \infty$ and 
+Relatively compactness iff  for every $m$, 
+$\sup_{x \in A} \| x \|_{m} < \infty$ 
+and 
 $\lim_{\delta \to 0} \sup_{x \in A} w^{'}_m (x, \delta) = 0$.
 
 This translate to the relevant tightness condition for measures on $D_\infty$.
