@@ -16,4 +16,4 @@ This is a prototypical example of chaotic behaviour in deterministic system. It 
 
 The trajectory in the phase space also resemble a butterfly. One can see in the animation there are two attractors.
 
-![Lorenz attractor]https://solomon-lam.github.io/assets/lorenz_attractor_sensitvity.mp4
+![Lorenz attractor](https://solomon-lam.github.io/assets/lorenz_attractor_sensitvity.mp4)
