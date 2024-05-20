@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Differential equations
+categories: Differential_equations
 ---
 # Lorenz attractor and the butterfly effect
 
