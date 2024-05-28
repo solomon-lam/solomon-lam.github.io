@@ -68,6 +68,7 @@ relative compact in $D_{\infty}$ iff $\phi_m A$ is relatively compact in $D_m$ f
 We have 
 
 $$w^{'}_{m}(x,\delta)=\inf \sup_{1 \le i \le v} w(x, [t_{i-1},t_i))$$ 
+
 , where infimum extends over all decompositions 
 $[t_{i-1},t_i)$, $1\le i \le v$ 
 of $[0,m)$, 
