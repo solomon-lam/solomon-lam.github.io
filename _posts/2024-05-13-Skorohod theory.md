@@ -10,7 +10,7 @@ categories: Stochastics
 * Define
 $T\subset [0,1]$,
 $w_x(T): = \sup_{s,t \in T} |x(s)-x(t)|$
-* Modulus of continuity $w_x(\delta)= \sup_{0\le t \le t 1-\delta}w_x([t,t+\delta])$
+* Modulus of continuity $w_x(\delta)= \sup_{0\le t \le 1-\delta}w_x([t,t+\delta])$
 
 # Properities of cadlag functions
 Consider cadlag modulus
