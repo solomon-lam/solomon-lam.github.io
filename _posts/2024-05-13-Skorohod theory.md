@@ -95,6 +95,7 @@ $$\lim_{a \to \infty}\limsup_n P[|X^n|_m \ge a]=0$$
 
 and for each $\epsilon, \eta,m$, there exists a $\delta_0$ and $n_0$ such that if $\delta<\delta_0$, $n\ge n_0$, and $\tau$ a discrete $X^n$ stopping time with $\tau\le m$, then $$P(|X^n_{\tau+\delta} - X^n_\tau| \ge \epsilon |)\le \eta$$
 
+Reference: Convergence of Probability Measures, Patrick Billingsley Chapter 12, 13, 16
 
 
 Finite dimensional sets
