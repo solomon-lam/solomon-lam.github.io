@@ -97,6 +97,10 @@ and for each $\epsilon, \eta,m$, there exists a $\delta_0$ and $n_0$ such that i
 
 $$P(|X^n_{\tau+\delta} - X^n_\tau| \ge \epsilon |)\le \eta$$
 
+Proof idea is to show the second condition implies 
+
+$$\lim_{\delta}\limsup_n P[w^{'}_m (X^n,\delta)\ge \epsilon]=0.$$
+
 Reference: Convergence of Probability Measures, Patrick Billingsley Chapter 12, 13, 16
 
 
