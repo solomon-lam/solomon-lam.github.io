@@ -72,7 +72,7 @@ $$w^{'}_{m}(x,\delta)=\inf \sup_{1 \le i \le v} w(x, [t_{i-1},t_i))$$
 $[t_{i-1},t_i)$, $1\le i \le v$ 
 of $[0,m)$, 
 such that it is $\delta$-sparse for 
-$1\le i < v$.
+$1\le i < v$ but does <span style="color:red">not</span> require $t_v - t_{v-1}>\delta$.
 
 Theorem 16.5 
 
