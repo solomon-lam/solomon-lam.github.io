@@ -46,7 +46,7 @@ Compare with the continuous function version Theorem 7.3 via Arzeal-Ascoli.
 # Skorohod topology $[0,\infty)$ 
 $D[0,\infty)$ cadlag functions on $[0,\infty)$. 
 Introduce $D_t$ cadlag functions on $[0,t]$, 
-$d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]$, similarly for $\|\cdot \|_m$.
+$d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]$, similarly for $\|x \|_m=\sup_{s\le t}|x(s)|$.
 
 Define 
 $$g_m(t)=\begin{cases} 1 \quad &\text{if } t\le m-1,\\
