@@ -46,7 +46,7 @@ Compare with the continuous function version Theorem 7.3 via Arzeal-Ascoli.
 # Skorohod topology $[0,\infty)$ 
 $D[0,\infty)$ cadlag functions on $[0,\infty)$. 
 Introduce $D_t$ cadlag functions on $[0,t]$, 
-$d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]$.
+$d_t^{\circ}(x,y)$ which is analogous to $d^{\circ}$ but for functions on $[0,t]$, similarly for $\|\cdot \|_m$.
 
 Define 
 $$g_m(t)=\begin{cases} 1 \quad &\text{if } t\le m-1,\\
@@ -65,7 +65,9 @@ Define $\phi_m x$ as $x^m$ restricted to $[0,m]$. $D_{\infty}$ is separable and 
 ## Compactness
 relative compact in $D_{\infty}$ iff $\phi_m A$ is relatively compact in $D_m$ for each $m$. 
 
-We have $$w^{1}_{m}(x,\delta)=\inf \sup_{1 \le i \le v} w(x, [t_{i-1},t_i))$$ 
+We have 
+
+$$w^{'}_{m}(x,\delta)=\inf \sup_{1 \le i \le v} w(x, [t_{i-1},t_i))$$ 
 , where infimum extends over all decompositions 
 $[t_{i-1},t_i)$, $1\le i \le v$ 
 of $[0,m)$, 
@@ -75,10 +77,22 @@ $1\le i < v$.
 Relatively compactness iff  for every $m$, 
 $$\sup_{x \in A} \| x \|_{m} < \infty$$ 
 and 
-$$\lim_{\delta \to 0} \sup_{x \in A} w^{1}_m (x, \delta) = 0$$.
+$$\lim_{\delta \to 0} \sup_{x \in A} w^{'}_m (x, \delta) = 0$$.
 
-This translate to the relevant tightness condition for measures on $D_\infty$.
-$\lim_{a \to \infty}\limsup_n P[|X^n|_m \ge a]=0$
+The tightness is characterised by the sequence ${P_n}$ is tight if and only if 
+for each $m$, 
+
+$$\lim_{a\to\infty} \limsup_{n} P_n (x: \| x\|_m \ge a) = 0$$
+
+for each $m$ and $\epsilon$
+
+$$\lim_{\delta} \limsup_{n} P_n(x: w^{'}_m(x,\delta)\ge \epsilon)=0$$.
+
+
+
+This translate to the relevant tightness sufficeint condition for measures on $D_\infty$.
+$$\lim_{a \to \infty}\limsup_n P[|X^n|_m \ge a]=0$$
+
 and for each $\epsilon, \eta,m$, there exists a $\delta_0$ and $n_0$ such that if $\delta<\delta_0$, $n\ge n_0$, and $\tau$ a discrete $X^n$ stopping time with $\tau\le m$, then $$P(|X^n_{\tau+\delta} - X^n_\tau| \ge \epsilon |)\le \eta$$
 
 
