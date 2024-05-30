@@ -88,7 +88,8 @@ for each $m$,
 $$\lim_{a\to\infty} \limsup_{n} P_n (x: \| x\|_m \ge a) = 0$$
 
 with
-$\|x\|_m = \sup_{s\le m}|x(s)|$.
+$\|x\|_{m} = \sup_{s\le m} |x(s)|$
+.
 for each $m$ and $\epsilon$
 
 $$\lim_{\delta} \limsup_{n} P_n(x: w^{'}_m(x,\delta)\ge \epsilon)=0$$.
