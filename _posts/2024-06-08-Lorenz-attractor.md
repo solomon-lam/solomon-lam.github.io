@@ -7,7 +7,7 @@ categories: Differential_equations
 The butterfly image from [Wikipedia](https://en.wikipedia.org/wiki/Butterfly_effect) is the visualization of the solution of the Lorenz system in a phase portrait.<img src="https://github.com/solomon-lam/solomon-lam.github.io/assets/43318214/0c8bf191-0242-4481-a1b0-bb2208f71350" width="500"/>
 
 
-The Lorenz system is given by
+The Lorenz system is a deterministic system of ordinary differential equations given by
 
 $$ \frac{d x}{d t} = \sigma(y-x) $$
 
