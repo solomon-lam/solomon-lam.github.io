@@ -17,9 +17,9 @@ $$ \frac{d z}{d t} = x y -\beta z$$
 
 The image above in fact is a 2D projection of the trajectory of the 3D system in xyz-coordinates.
 
-This system is famous because it a prototypical example of chaotic behaviour in deterministic system. It is a simple model for the atmosphere. The slight change in initial condition results in drastic change in the future behaviour is interpreted as the butterfly effect in which the flap of the wings of a butterfly can cause an extreme weather event. 
+This system is famous because it a prototypical example of chaotic behaviour in deterministic system in chaos theory. It was intended as a simple model for the atmosphere. The slight change in initial condition results in drastic change in the future behaviour is interpreted as the butterfly effect in which the flap of the wings of a butterfly can cause an extreme weather event. 
 
-The trajectory in the phase space also resemble a butterfly. One can see in the animation below with slightly different initial conditions, the trajectory in long time can be very different. This is shown by the colour blue and orange to represent the trajectory of two initial conditions.
+The trajectory in the phase space also resemble a butterfly. One can see in the animation below with slightly different initial conditions, the trajectory in long time can be very different. This is shown by the colour blue and orange to represent the trajectories of two initial conditions.
 
 <video width="500" height="350" controls>
   <source src="https://solomon-lam.github.io/assets/lorenz_attractor_sensitivity.mp4" type="video/mp4">
