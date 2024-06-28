@@ -65,5 +65,9 @@ $I'(x')= \inf\{ I(x) : \Phi(x) = x'\}.$
 $$\mathrm{d} \mathbb{P}_n^G := \frac{1}{Z_n(G)} e^{nG} \mathrm{d}\mathbb{P}_n$$ with $Z_n(G)$ normalization
 satisfies an LDP with rate function $I^G(x) = I(x) - G(x) + \sup_E (G-I)$
 
+Cramer's theorem
+Assume $\int e^{x \cdot v} \mu (\mathrm{d} x)<+\infty$, for every $v\in\mathbb{R}^d$. Then $\{\mathbb{P}_n\}$ defined via $\mathbb{P}_n(A)= \mathbb{P}( n^{-1}(X_1+...+X_n) \in A)$ satisfies LDP with 
+$$I(x) = \lambda^* (x) = \sup_{v\in \mathbb{R}^d} (x \cdot v - \lambda(v)),$$ where $\lambda(v)= \log \int e^{x \cdot v} \mu(\mathrm{d} x).$
+
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
