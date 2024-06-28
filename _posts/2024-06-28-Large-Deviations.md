@@ -30,8 +30,9 @@ The rate function $I$ is interpreted as the difference between an energy functio
 
 The energy fuction relates to the probability of such a microstates via $\exp(-n H(x))$.
 The entropy relates to the counting of the microstates (set of possible combinations of $X_i$) correspond to the macrostate $S_n = \[nx\]$ via 
-$$\binom{n}{\[nx\]}\approx \exp(n J(x) ).$$ Here we also see the 'competition' between energy and entropy to compute $\mathbb{P}(S_n \[nx\])$.
+$$\binom{n}{\[nx]}\approx \exp(n J(x) ).$$ Here we also see the 'competition' between energy and entropy to compute $\mathbb{P}(S_n \[nx\])$.
 
+Another interpretation is the relative entropy of the law of $X$ with respect to the uniform distribution.
 What is rate function?
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
