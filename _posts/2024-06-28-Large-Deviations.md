@@ -63,7 +63,7 @@ $I'(x')= \inf\{ I(x) : \Phi(x) = x'\}.$
 
 2. If $G:E\to\mathbb{R}$ is a bounded continuous function, then the family
 $$\mathrm{d} \mathbb{P}_n^G := \frac{1}{Z_n(G)} e^{nG} \mathrm{d}\mathbb{P}_n$$ with $Z_n(G)$ normalization
-satisfies an LDP with rate function $I^G(x) = I(x) - G(x) + \sup_E{G-I}$
+satisfies an LDP with rate function $I^G(x) = I(x) - G(x) + \sup_E (G-I)$
 
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
