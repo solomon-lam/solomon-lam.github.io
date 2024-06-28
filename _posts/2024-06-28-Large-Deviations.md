@@ -77,5 +77,8 @@ $\mu$ probability measure on a Polish space $E$ and assume $X_1,...,X_2$ a seque
 
 The family $\{P_n\}$, law of mean of iid rv, satisfies  LDP with a rate function $I(\nu) = H(\nu | \mu ).$
 
+Theorem 
+$$H(\mu|\nu)=\sup_{f \in C_b(E)}( \int f \mathrm{d} \nu - \lambda (f) )= \sup_{f \in B_b(E)} ( \int f \mathrm{d} \nu -\lambda(f))$$
+
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
