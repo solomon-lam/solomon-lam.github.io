@@ -17,7 +17,7 @@ the minimum is over all curves
 $\mu_t:[0,1]\to P_2(\mathbb{R}^n)$ 
 continuous wrt the weak topology.
 
-Geodesic represented by solutions to the continuity equation.
+## Geodesics in $W^2$ are represented by solutions to the continuity equation.
 Solution of continuity equation is related to the absolutely continuous curve wrt $W^2$
 
 For any AC curve, there exists a velocity field so that the AC curve solves the associated continuity equation and the quadratic action equals to the metric derivative squared.
@@ -26,3 +26,8 @@ Elements $s$ of the tangent space $T_{\rho}P^a_2(\mathbb{R}^n)$ are functions wi
 
 The gradient tangent vectors $v=\nabla \phi$ are coupled to tangent vectors $s$ by the PDE $-\mathrm{div}((\nabla \phi)\rho) =s.$ The metric tensor is 
 $\langle s,s'\rangle_\rho = \int_{R^n} \langle \nabla \phi , \nabla \phi' \rangle \rho \mathrm{d} x$ where $-\mathrm{div}((\nabla \phi) \rho )= s$.
+
+Wasserstein gradient of the energy gives the velocity field $v$ in the continuity equation. The Wasserstein gradient is calculated via the metric tensor. 
+
+Heat equation as gradient flow of entropy
+$$\partial_t \rho_t = \Delta \rho_t = \mathrm{div}(\nabla^W \mathrm{Ent}(\rho_t) \rho_t) $$
