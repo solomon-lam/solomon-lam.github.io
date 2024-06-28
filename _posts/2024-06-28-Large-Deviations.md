@@ -23,8 +23,15 @@ The function $I$ is convex, $I\ge 0$ and attains $0$ at $x=p$ which is consisten
 $$\lim_{n\to\infty} n^{-1} \log \mathbb{P}(S_n = \[nx\])= - I(x)$$ for $x\in\[0,1\]$.
 It is consistent with CLT:
 $$nI(p+y/\sqrt{n}) = \frac12 I''(p)y^2 + O(n^{-\frac{1}{2}})$$
-$$\mathbb{P}(S_n-\[nx\]) \approx \frac{1}{\sqrt{2\pi p(1-p)}} e^{-1/2 I''(p) y^2}$$.
+$$\mathbb{P}(S_n-\[nx\]) \approx \frac{1}{\sqrt{2\pi p(1-p)}} e^{-\frac{1}{2} I''(p) y^2}$$.
+
 How to interpret large deviation results?
+The rate function $I$ is interpreted as the difference between an energy function and some kind of entropy.
+
+The energy fuction relates to the probability of such a microstates via $\exp(-n H(x))$.
+The entropy relates to the counting of the microstates (set of possible combinations of $X_i$) correspond to the macrostate $S_n = \[nx\]$ via 
+$$\binom{n}{\[nx\]}\approx \exp(n J(x) )$$. Here we also see the 'competition' between energy and entropy to compute $\mathbb{P}(S_n \[nx\])$.
+
 What is rate function?
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
