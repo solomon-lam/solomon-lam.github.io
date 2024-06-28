@@ -58,7 +58,7 @@ and
 $$I(x) = \sup_{F \in C_b(E)} (F(x) - \Lambda(F)).$$
 
 1. Contraction principle $\Phi : E \to E'$ continuous function, then the family ${P_n'}$ defined by
-$$\mathbb{P}_n'(A) := \mathbb{P}_n (\Phi^{-1}(A))$ satisfies an LDP with rate function 
+$$\mathbb{P}_n'(A) := \mathbb{P}_n (\Phi^{-1}(A))$$ satisfies an LDP with rate function 
 $I'(x')= \inf\{ I(x) : \Phi(x) = x'\}.$
 
 2. If $G:E\to\mathbb{R}$ is a bounded continuous function, then the family
