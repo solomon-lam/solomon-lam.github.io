@@ -6,7 +6,7 @@ categories: Stochastics
 # Large Deviations- An introduction
 Reference: Rezakhanlou 2017 Lectures on LDP
 
-What is Large Deviation?
+## What is Large Deviation?
 
 Motivation: 
 Gibbs measure
@@ -39,6 +39,31 @@ The entropy relates to the counting of the microstates (set of possible combinat
 $$\binom{n}{\[nx]}\approx \exp(n J(x) ).$$ Here we also see the 'competition' between energy and entropy to compute $\mathbb{P}(S_n= \[nx\])$.
 
 Another interpretation is the relative entropy of the law of $X$ with respect to the uniform distribution.
-What is rate function?
+
+## Defintions of LDP, transformations of LDP
+
+Defintion rate function $I:E \to [0,\infty]$
+1. I has compact sublevel set
+2. for every open set $U$
+$$ \liminf_{n\to\infty} n^{-1} \log \mathbb{P}_n(U) \ge -\inf_{x\in U} I(x),$$
+3. for every closed set $C$
+$$ \limsup_{n\to\infty} n^{-1} \log \mathbb{P}_n (C) \le -\inf_{x\in C} I(x).$$
+
+Or understand as $\lim_n n^{-1} \log \mathbb{P}_n(A) = -\inf_{A} I$.
+
+Alternative for 2,3
+For every continuous bounded function $F:E \to \mathbb{R}$
+$$\Lambda(F):= \lim_{n\to\infty} n^{-1} \log \int e^{n F} \mathrm{d} P_n = \sup_{E}(F-I).$$
+and 
+$$I(x) = \sup_{F \in C_b(E)} (F(x) - \Lambda(F)).$$
+
+1. Contraction principle $\Phi : E \to E'$ continuous function, then the family ${P_n'}$ defined by
+$$\mathbb{P}_n'(A) := \mathbb{P}_n (\Phi^{-1}(A))$ satisfies an LDP with rate function 
+$I'(x')= \inf\{ I(x) : \Phi(x) = x'\}.$
+
+2. If $G:E\to\mathbb{R}$ is a bounded continuous function, then the family
+$$\mathrm{d} \mathbb{P}_n^G := \frac{1}{Z_n(G)} e^{nG} \mathrm{d}\mathbb{P}_n$$ with $Z_n(G)$ normalization
+satisfies an LDP with rate function $I^G(x) = I(x) - G(x) + \sup_E{G-I}$
+
 How is it applied?
 How does it help to show the absolute continuity of measure with respect to Lebesgue measure under a specific dynamics?
