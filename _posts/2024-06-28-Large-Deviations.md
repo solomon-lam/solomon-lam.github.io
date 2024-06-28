@@ -50,7 +50,7 @@ $$ \liminf_{n\to\infty} n^{-1} \log \mathbb{P}_n(U) \ge -\inf_{x\in U} I(x),$$
 $$ \limsup_{n\to\infty} n^{-1} \log \mathbb{P}_n (C) \le -\inf_{x\in C} I(x).$$
 
 Or understand as 
-$$\lim_n n^{-1} \log \mathbb{P}_{n} (A) = -\inf_{A} I.$$
+$$\lim_n n^{-1} \log \mathbb{P}_{n} (A) = - \inf_{A} I.$$
 
 Alternative for 2,3
 For every continuous bounded function $F:E \to \mathbb{R}$
