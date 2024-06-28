@@ -77,7 +77,7 @@ $\mu$ probability measure on a Polish space $E$ and assume $X_1,...,X_2$ a seque
  
 for every Borel set $A \subset M$. 
 
-The family $\{P_n\}$, law of mean of iid rv, satisfies  LDP with a rate function $I(\nu) = H(\nu | \mu ).$
+The family $\{P_n\}$, law of mean of iid rv, satisfies  LDP with a rate function $I(\nu) = H(\nu\vert \mu).$
 
 Theorem 
 $$H(\mu|\nu)=\sup_{f \in C_b(E)}( \int f \mathrm{d} \nu - \lambda (f) )= \sup_{f \in B_b(E)} ( \int f \mathrm{d} \nu -\lambda(f))$$
