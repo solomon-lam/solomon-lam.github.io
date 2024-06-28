@@ -25,6 +25,12 @@ It is consistent with CLT:
 $$nI(p+y/\sqrt{n}) = \frac12 I''(p)y^2 + O(n^{-\frac{1}{2}})$$
 $$\mathbb{P}(S_n-\[nx]) \approx \frac{1}{\sqrt{2\pi p(1-p)}} e^{-\frac{1}{2} I''(p) y^2}$$.
 
+Example: Wiener measure
+
+The $d$-dimensional Brownian measure can be regarded as $\mathbb{P}$ on $\Omega= C([0,T];\mathbb{R}^d)$ of $x:[0,T]\to \mathbb{R}^d$ such that for $t_0=0<t_1<...<t_{k-1}<t_k = T$ and $y_0=0$,
+$$\mathbb{P}(x(t_1) \in \mathrm{d} y_1 ,..., x(t_k) \in \mathbb{d} y_k ) = Z^{-1}_{t_1,...,t_k} \exp(-\frac{1}{2} \sum_{i=1}^k \frac{|y_i-y_{i-1}|^2}{t_i - t_{i-1}}) \mathrm{d}y_1... \mathrm{d} y_k$$
+
+
 How to interpret large deviation results?
 The rate function $I$ is interpreted as the difference between an energy function and some kind of entropy.
 
