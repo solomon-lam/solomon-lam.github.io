@@ -22,7 +22,7 @@ Solution of continuity equation is related to the absolutely continuous curve wr
 
 For any AC curve, there exists a velocity field so that the AC curve solves the associated continuity equation and the quadratic action equals to the metric derivative squared.
 
-Elements $s$ of the tangent space $T_{\rho}P^a_2(\bR^n)$ are functions with null mean
+Elements $s$ of the tangent space $T_{\rho}P^a_2(\mathbb{R}^n)$ are functions with null mean
 
 The gradient tangent vectors $v=\nabla \phi$ are coupled to tangent vectors $s$ by the PDE $-\mathrm{div}((\nabla \phi)\rho) =s.$ The metric tensor is 
 $\langle s,s'\rangle_\rho = \int_{R^n} \langle \nabla \phi , \nabla \phi' \rangle \rho \mathrm{d} x$ where $-\mathrm{div}((\nabla \phi) \rho )= s$.
