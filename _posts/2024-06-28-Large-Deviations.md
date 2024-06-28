@@ -73,7 +73,9 @@ $$I(x) = \lambda^* (x) = \sup_{v\in \mathbb{R}^d} (x \cdot v - \lambda(v)),$$ wh
 Sanov's theorem 
 $\mu$ probability measure on a Polish space $E$ and assume $X_1,...,X_2$ a sequence of $E$-values iid random variable with law $\mu$. Consider $M$
  space of Radon probability measures on $E$ with Wasserstein distance $D$. The family of probability measures $P_n$ on $M$ by
- $$\mathbb{P}_n (A) = \mathbb{P}( n^{-1} (\delta_{X_1} + ...+\delta_{X_n}) \in A )$$ for every Borel set $A \subset M$. 
+ $$\mathbb{P}_n (A) = \mathbb{P}( n^{-1} (\delta_{X_1} + ...+\delta_{X_n}) \in A )$$ 
+ 
+for every Borel set $A \subset M$. 
 
 The family $\{P_n\}$, law of mean of iid rv, satisfies  LDP with a rate function $I(\nu) = H(\nu | \mu ).$
 
