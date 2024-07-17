@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## Input-Vortrag 
+## Input-Vortrag Kants ewige friedliche Utopie und der Menschenrechtsschutz
 
 # Kants ewige friedliche Utopie und der Menschenrechtsschutz
 
