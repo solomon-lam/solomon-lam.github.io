@@ -3,4 +3,10 @@ layout: post
 categories: Stochastics
 ---
 
-#Significance
+Goal: Want to show a Log-Sobolev inequality for EDG process.
+
+Consequence: Exponential Convergence to equilibrium
+
+# Significance
+
+
