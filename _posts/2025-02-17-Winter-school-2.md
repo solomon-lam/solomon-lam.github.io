@@ -5,7 +5,7 @@ categories: stochastics
 
 ## On the Smoluchowski coagulation equation for aggregation phenomena
 
-This is the collection of summary in the winter school in Rome in 2025.
+This is the collection of summaries in the winter school in Rome in 2025.
 
 Speaker: Alessia Nota
 
