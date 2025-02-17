@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: stochastics
+categories: Rome
 ---
 
 ## On the Smoluchowski coagulation equation for aggregation phenomena
