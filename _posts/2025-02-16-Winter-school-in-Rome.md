@@ -3,7 +3,7 @@ layout: post
 categories: stochastics
 ---
 
-## Winter school in Rome: Quantum Markov Semigroups in Non-equilibrium Statistical Physics
+## Winter school in Rome: Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability Course 1
 
 This is the collection of summary in the winter school in Rome in 2025.
 
