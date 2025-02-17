@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: stochastics
+categories: Rome
 ---
 
 ## Winter school in Rome: Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability Course 1
