@@ -6,4 +6,5 @@ I am working on a stochastic particle system known as exchange-driven growth mod
 
 
 
-To [my university page](https://www.uni-muenster.de/AMM/show_perspage.shtml?id=1608).
+To [my university page](https://www.uni-ulm.de/mawi/iaa/members/chun-yin-lam/) and the [old page](https://www.uni-muenster.de/AMM/show_perspage.shtml?id=1608).
+
