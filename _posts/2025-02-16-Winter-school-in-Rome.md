@@ -5,7 +5,7 @@ categories: stochastics
 
 ## Winter school in Rome: Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability Course 1
 
-This is the collection of summary in the winter school in Rome in 2025.
+This is the collection of summaries in the winter school in Rome in 2025.
 
 Speaker: Eric Carlen
 
