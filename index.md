@@ -2,7 +2,7 @@
 #### Herzlich willkommen in meinem Blog!
 My name is Solomon Lam.  
 I am working on a stochastic particle system known as the exchange-driven growth model as part of my PhD study.  
-I hope you enjoy your time here.
+I hope you enjoy your visit here.
 
 <img src="images/Photo_Amsterdam" alt="My picture" width="400"/>
 
