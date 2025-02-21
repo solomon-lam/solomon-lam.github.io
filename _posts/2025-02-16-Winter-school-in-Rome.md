@@ -3,10 +3,9 @@ layout: post
 categories: Rome
 ---
 
-## Winter school in Rome: Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability Course 1
+## Quantum Markov Semigroups in Non-equilibrium Statistical Physics 
 
-This is the collection of summaries in the winter school in Rome in 2025.
-
+This is the collection of summaries in the winter school (Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability) in Rome in 2025.  
 Speaker: Eric Carlen
 
 Title Quantum Markov Semigroups in Non-equilibrium Statistical Physics
@@ -21,3 +20,5 @@ $$D(\rho_t^\dagger| \sigma) \le e^{-ct} D(\rho | \sigma)$$
 with an explicit $c$ under detailed balance condition with respect to the steady state $\sigma$.  
 
 Definition of completely positive, superoperator...
+
+Follow up check: Kac model, Gradient flow for Boltzmann-Kac equation, random walk on graph, qunantum binary collision model
