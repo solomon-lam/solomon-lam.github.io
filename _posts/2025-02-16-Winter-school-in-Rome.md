@@ -21,4 +21,4 @@ with an explicit $c$ under detailed balance condition with respect to the steady
 
 Definition of completely positive, superoperator...
 
-Follow up check: Kac model, Gradient flow for Boltzmann-Kac equation, random walk on graph, qunantum binary collision model
+Follow up check: proof of convergence of equilibrium to Kac Boltzmann model, Gradient flow for Boltzmann-Kac equation, random walk on graph, qunantum binary collision model
