@@ -17,9 +17,9 @@ Basic mathematical model is a compund Poisson process:
 
 $Z_t = \sum_{i \in A_t}^N X_i$. 
 
-$Z_t$ total claim amount
-$A_t$ jump time, claim occurence time, Poisson process with intensity $\lambda$
-$X_i$ claim amount, iid distributed
+$Z_t$ total claim amount  
+$A_t$ jump time, claim occurence time, Poisson process with intensity $\lambda$  
+$X_i$ claim amount, iid distributed  
 
 Tools: Moment generating functions, cumulant generating function
 
