@@ -9,3 +9,5 @@ Reference: Grundprinzipien der Finanz und Versicherungsmathematik
 Zahlungsstrom: cash flow ${Z_t}$ \
 Pricing: Wertbestimmung, Verkaufsentscheidung \
 Bewertung eines Zahlungsstrom: $V({Z_t})$
+
+Nächste Charakteriserung von Finanztiteln
