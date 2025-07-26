@@ -33,4 +33,42 @@ einen spezifizierten Finanztitel zu kaufen oder verkaufen Nachschuss(subsequent 
 Verkäufer (Stillhalter)  muss auf die Lieferung, Abnahme des Basistitels vorbereitet sein
 
 
-Nächste Charakteriserung von Versicherungsverträgen
+Nächste Charakteriserung von Versicherungsverträgen \
+
+2.4.1 Einperiodenbetrchtung
+Schlüsselwörter 
+Risiko Prämie RP: Premium \
+Entschädigung Schädenhöhe/ Versicherungleistung L: compensation, Anzahl der Schäden, Schädenzahl number of claims \
+kalkulatorischer Deckungbeitrag: calculated contribution margin \
+TG versicherungstechnishen Erfolg $ TG = RP- S$ \
+Übernahme des Risiko: take over of risks \
+aufgefasst werden to be considered \
+verlangt: required \
+Eintreten: incidence \
+Schäden: versicherungfälle \
+Illimite Deckung- Entschädigungszahlung Loss =  S Originalschaden \
+Gewinnzuschlag profit margin \
+KaptailanlageErträge investment earnings IE\ 
+
+Bruttoprämie: Deckungsbeitrag für die Versicherungsleistung, für Betriebkosten, Gewinnzuschlag, Bruttoprämiekalkulation \
+aggregierte Versicherungsleistung S \
+Anfänglichem Wert, Schlusswert open, closing values \
+
+2.4.2 Mehrperioddenbetrachtung\
+Schaltung: wiring\
+sichtweise: point of view\
+reguliert/ aufgewickelt: processed\
+Dehnung extension\
+Schadensregulierung claim adjustment\
+
+
+Personenversicherung\
+sehr langfristig ausgestaltet\
+mehrperiodenmodelle \
+Versicherungsnehmer Zustand ändert
+Ausscheiden retirement
+Ausscheideordnung : live remaining
+Sterbetafel mortality table
+
+Lebensprozess
+birth death chain inhomoegenous Markov chain with an absorbing state
