@@ -26,3 +26,9 @@ Tools: Moment generating functions, cumulant generating function
 From total claim amount: calculate premium, retention and reserve.
 F
 Fr
+
+
+Principle of premium calculation: from distriubtion to premium
+zero utility, variance, standard derivation, expected value 
+collective premium vs risk premium (individual, theoretically correct)
+Risk premium
