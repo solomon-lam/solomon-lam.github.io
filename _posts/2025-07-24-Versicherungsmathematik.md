@@ -61,6 +61,14 @@ reguliert/ aufgewickelt: processed\
 Dehnung extension\
 Schadensregulierung claim adjustment\
 
+Rückstellung : reserve
+Zinssatz: interest rate
+einfließen: flow-in integrate/ to run in
+erahnen recognize intuitively
+herauskriegen to find out
+Daten analyse: Prognosen für die Zukunft
+Statische Methode
+Datenaufbereitung date preparation
 
 Personenversicherung\
 sehr langfristig ausgestaltet\
