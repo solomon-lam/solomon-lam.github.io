@@ -1,0 +1,6 @@
+Short summary:
+
+1. Maxwell system: Existence of solution 
+2. Euler equation with axis-symmetric solution, Method: convex integation
+3. Trace operator, generalized method from divergence measure field theory, BV_A^1 space, $f \in L^1$, BV, $A$ homogeneous differential operator, $Au$ Radon measure, R ellpicity, C ellpicity equivalence to existence of such trace. 
+4. Phase field model, COV, gamma convergence for image segmentation, Fast marching alogrithm, not connected set, coarea formula
