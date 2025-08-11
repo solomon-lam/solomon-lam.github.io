@@ -37,3 +37,8 @@ zurückzuführen: die Ursache für etw. in etw. sehen, etw. durch etw. erklären
 verschieben/ verlegen: andere Zeitpunkt legen
 Barwert: Gegenwartswert, present value
 Nachschüssige/ Vorschüssige Zahlung. Vorschüssige Zahlungen erfolgen zu Beginn eines Zeitraums, während nachschüssige Zahlungen am Ende eines Zeitraums fällig werde
+
+
+vorgeschalteter  Dimensionsreduktion : Upstream dimension reduction
+anreichen enrich
+bereinigt von Fehlern befreiten
